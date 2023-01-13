@@ -1,0 +1,12 @@
+<?php
+include "A_1.php"; 
+if(isset($_POST['proses'])){
+    mysqli_query($koneksi,"insert into barang set
+    Kode_Barang = '$_POST[Kode_Barang]',
+    Nama_Barang = '$_POST[Nama_Barang]',
+    Harga_Barang = '$_POST[Harga_Barang]'");
+
+    echo "Data barang baru telah tersimpan";
+}
+
+?>

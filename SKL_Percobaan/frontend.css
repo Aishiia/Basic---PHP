@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+} 
+.hero{
+    width: 100%;
+    background-color: #031426;
+    height: 80px;
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 8% 1px 5%; 
+    margin-bottom: -15px;
+}
+.logo{
+    color: rgb(247, 247, 255);
+    font-size: 33px;
+    font-family: Times New Roman;
+    letter-spacing: .5px;
+    cursor: pointer;
+    padding-top: 0.5%;
+    padding-left: 7px;
+    margin-top: -6px;
+}
+span{
+    color:rgb(255, 253, 239);
+    font-size: 38px;
+    font-family: Times New Roman;
+}
+span{
+    color:rgb(212, 213, 175);
+    font-size: 38px;
+    font-family: Times New Roman;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 18px;
+    margin-top: 6px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+nav ul li a:hover {
+    color: #EEF5D6;
+    transition: .4s;
+}
+.button {
+    background-color: #001429;
+    border-radius: #eef0f3;
+    color: rgb(255, 251, 251);
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 8px 18px;
+    margin-top: 6px;
+    margin-bottom: 5px;
+    border-radius: 30px;
+    transition: tranform .4s;
+}
+.button:hover{
+    transform: scale(1.2);
+    transition: tranform 1s;
+}
+nav ul li a:home{
+    /* position: relative;
+    padding: 230px 306px 150px 306px;
+    background-image: url(1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative; */
+    background-color: #1E1F1E;
+    h     
+    height: 100vh;
+}
+/* nav ul li a:home{
+background-image:url(school.png); 
+background-size:cover; 
+background-attachment: fixed; } 
+p{ color:white; }  */
+h1{
+    color: rgb(75, 62, 34);
+    font-size: 40px;
+    margin: 30px;
+}
+
+.programs{
+    background-position: center;
+    background-color: #001429;
+    width: 100%;
+    height: 130vh;
+}
+h1{
+    font-size: 35px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 230px 200px 100px 200px;
+}

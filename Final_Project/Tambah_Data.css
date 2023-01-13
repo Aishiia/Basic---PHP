@@ -1,0 +1,23 @@
+*{
+    margin: 20px 0px 0px 50px;
+    width: 100px;
+    /* padding: 2px 5px 2px 5px; */
+}
+.registrasi{
+    font-weight: bold;
+    color: blue;
+}
+.tambah_data{
+    font-size: 20px;
+    width: 60px;
+    /* padding: 20px 5px 2px 20px; */
+}
+input{
+    box-sizing: content-box;
+    border-radius: 6px;
+    padding: 5px 10px;
+}
+.submit{
+    text-decoration: none;
+    color: blue;
+}
